@@ -1,5 +1,7 @@
 	/* Google Fonts */
   @import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Righteous&display=swap");
+
+
   /* Universal styles */
   * {
     margin: 0;
@@ -9,7 +11,7 @@
     scroll-padding-top: 3rem;
     font-family: var(--font-family-1);
   }
-  /* Color and font variables */
+  /* Cores e Variaveis Fonts */
   :root {
     --brown: #4b1204;
     --yellow-color: #ffa10a;
@@ -20,3 +22,27 @@
     --text-alter-color: #94908e;
     --font-family-1: "Mitr", sans-serif;
     --font-family-2: "Righteous", sans-serif;
+  }
+
+  body {
+    color: var(--text-color);
+    background: var(--bg-color);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  section {
+    padding: 3rem 0 2rem;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;
+  }
